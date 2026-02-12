@@ -1,0 +1,47 @@
+{
+  "kind": "build_request",
+  "title": "Add Google Search Console site verification meta tag",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "text": "Insert the provided Google Search Console verification meta tag into the HTML <head> so Google can verify site ownership.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "<meta name=\"google-site-verification\" content=\"J4tH72RdBxc6a0hSEbceJV6xZn8daPsAgqs7i2HbVWI\" />"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The file frontend/index.html contains the exact meta tag <meta name=\"google-site-verification\" content=\"J4tH72RdBxc6a0hSEbceJV6xZn8daPsAgqs7i2HbVWI\" /> within the <head> section.",
+        "The application builds successfully after the change.",
+        "When viewing the page source in the browser, the meta tag is present in the rendered HTML head."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend files listed in frontend.immutablePaths must not be edited.",
+    "Use English for any user-facing text."
+  ],
+  "nonGoals": [
+    "Implementing other SEO changes (sitemaps, robots.txt, structured data, analytics).",
+    "Adding additional Google Search Console verification methods (DNS verification, file upload)."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

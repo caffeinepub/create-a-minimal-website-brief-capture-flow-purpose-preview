@@ -1,2 +1,3 @@
-# create-a-minimal-website-brief-capture-flow-purpose-preview
-Exported from Caffeine project: Create a minimal website brief capture flow (purpose + preview)
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining all routes (home, services, facilities, about, contact) with a shared layout component containing header and footer.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for user profile management (fetch and save caller user profile) with proper cache invalidation.",
+  "frontend/src/components/brief/BriefPreviewPanel.tsx": "Read-only preview component that displays the saved brief content with formatted timestamp and styled card layout.",
+  "frontend/src/components/auth/LoginButton.tsx": "Reusable authentication button component that handles login/logout with Internet Identity and clears query cache on logout.",
+  "frontend/src/index.css": "Global styles with cool blue-gray OKLCH color palette themed for cold storage (cyan/ice blue tones), custom scrollbar, and grid pattern utility for hero sections.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color system matching cold storage theme, custom font family, shadow utilities, and responsive container settings.",
+  "frontend/src/components/layout/Header.tsx": "Responsive navigation header with logo, desktop/mobile menus, active route highlighting, and call-to-action button for getting quotes.",
+  "frontend/src/components/layout/Footer.tsx": "Comprehensive footer with company info, quick links, services list, contact details including full address \"Industrial Area IGC Lassipora Pulwama JK 192301\", clickable phone (tel:6006422529) and email (mailto:kfpcsgroup@gmail.com) links, social media icons, and attribution to caffeine.ai.",
+  "frontend/src/pages/HomePage.tsx": "Landing page featuring hero section with CTA buttons, statistics grid, feature cards highlighting key benefits, and call-to-action section.",
+  "frontend/src/pages/ServicesPage.tsx": "Services overview page displaying cold storage, frozen storage, blast freezing, distribution, inventory management, and value-added services with certifications section.",
+  "frontend/src/pages/FacilitiesPage.tsx": "Facilities showcase page with specifications grid, detailed facility cards for each location, and technology/safety features section.",
+  "frontend/src/pages/AboutPage.tsx": "About page with company story, mission/vision/values cards, and timeline of key milestones from 1998 to present.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with contact information cards displaying full address \"Industrial Area IGC Lassipora Pulwama JK 192301\" in Visit Us card, clickable phone (tel:6006422529) and email (mailto:kfpcsgroup@gmail.com) links, message submission form, and map placeholder showing the full address.",
+  "frontend/index.html": "HTML entry point with Google Search Console verification meta tag added to the head section for site ownership verification."
+}

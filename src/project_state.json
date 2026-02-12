@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 13,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-add-a-simple-homepage-ui-that-asks-the-user-what-they-want-to-create-a-website-for-with-a-single-multiline-text-field-e-g-describe-your-website-in-1-3-sentences-and-a-primary-submit-button",
+      "title": "Add a simple homepage UI that asks the user what they want to create a website for, with a single multiline text field (e.g., “Describe your website in 1–3 sentences”) and a primary submit button.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-wire-the-frontend-form-to-the-backend-using-react-query-on-load-fetch-and-display-the-existing-brief-if-any-on-submit-save-the-brief-and-show-a-confirmation-state-plus-a-read-only-preview-panel-of-the-saved-brief",
+      "title": "Wire the frontend form to the backend using React Query: on load, fetch and display the existing brief (if any); on submit, save the brief and show a confirmation state plus a read-only preview panel of the saved brief.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-coherent-visual-theme-across-the-page-colors-typography-spacing-and-component-styling-appropriate-for-a-generic-website-starter-experience-avoid-blue-purple-as-the-primary-palette",
+      "title": "Apply a coherent visual theme across the page (colors, typography, spacing, and component styling) appropriate for a generic “website starter” experience; avoid blue/purple as the primary palette.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-contact-email-address-kfp-csgroup-gmail-com-to-the-site-s-visible-contact-information-including-updating-the-footer-contact-section-and-the-contact-page-email-us-card-to-display-it-and-make-it-clickable-via-a-mailto-link",
+      "title": "Add the contact email address \"kfp;csgroup;@gmail.com\" to the site’s visible contact information, including updating the footer contact section and the Contact page “Email Us” card to display it and make it clickable via a mailto: link.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-contact-section-to-display-the-phone-number-6006422529-and-email-address-kfpcsgroup-gmail-com-and-make-them-clickable-using-tel-and-mailto-links-respectively",
+      "title": "Update the footer contact section to display the phone number \"6006422529\" and email address \"kfpcsgroup@gmail.com\", and make them clickable using tel: and mailto: links respectively.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-page-contact-information-cards-so-that-the-phone-card-includes-6006422529-and-the-email-card-includes-kfpcsgroup-gmail-com-ensure-both-are-rendered-as-clickable-tel-mailto-links-where-shown",
+      "title": "Update the Contact page contact information cards so that the Phone card includes \"6006422529\" and the Email card includes \"kfpcsgroup@gmail.com\"; ensure both are rendered as clickable tel: / mailto: links where shown.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-physical-address-industrial-area-igc-lassipora-pulwama-jk-192301-to-the-site-s-visible-contact-information-by-updating-all-places-where-the-address-is-currently-shown-in-the-footer-and-the-contact-page-including-the-visit-us-contact-card-and-the-address-text-shown-in-the-map-placeholder-section-so-the-full-address-is-displayed-consistently-in-english",
+      "title": "Add the physical address \"Industrial Area IGC Lassipora Pulwama JK 192301\" to the site’s visible contact information by updating all places where the address is currently shown in the footer and the Contact page (including the \"Visit Us\" contact card and the address text shown in the map placeholder section) so the full address is displayed consistently in English.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-insert-the-provided-google-search-console-verification-meta-tag-into-the-html-head-so-google-can-verify-site-ownership",
+      "title": "Insert the provided Google Search Console verification meta tag into the HTML <head> so Google can verify site ownership.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-2",
+      "summary": "Implement backend support to persist and retrieve a single \"website brief\" string (and last-updated timestamp) for the current user/session, with methods to set and get the brief.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add a contact email address to the site content: \"kfp;csgroup;@gmail.com\".",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Update site contact information to include phone number \"6006422529\" and set the contact email to \"kfpcsgroup@gmail.com\" (displayed and clickable via mailto) across relevant sections (e.g., footer/contact page).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add the physical address \"Industrial Area IGC Lassipora Pulwama JK 192301\" to the site’s visible contact information (e.g., footer and Contact page).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add Google Search Console site verification support by inserting the provided <meta name=\"google-site-verification\" ...> tag into the site’s HTML <head> (or otherwise enabling verification).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Create a minimal website brief capture flow (purpose + preview)",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
